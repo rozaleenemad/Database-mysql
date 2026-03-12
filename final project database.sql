@@ -1727,9 +1727,7 @@ INSERT INTO Inventory (Inventory_ID, ItemName, Quantity, UnitPrice, Category) VA
 -- ============================================================
 -- QUERIES  
 -- ============================================================
--- /////////////////////////
--- rozaleen emad roshdy////
--- ///////////////////////
+
 SELECT 
     GUEST_ID,
     SUM(NumGuests) AS TotalGuests
@@ -1769,9 +1767,7 @@ GROUP BY TypeName;
 
 
 -- ////////////////////////////////////////////////////
--- //////////////////////
--- zahow mohey/////////
--- /////////////////
+
 SELECT DISTINCT City
 FROM GUEST;
 
@@ -1800,9 +1796,6 @@ WHERE Description LIKE '%not%';
 
 
 -- /////////////////////////////////////////////////////////////////////////
--- //////////////////////
--- reham elsayed////////
--- ////////////////////
 
 
 SELECT G.FirstName, G.LastName, R.RESERVATION_ID, R.Status
@@ -1853,9 +1846,7 @@ UNION
 SELECT FirstName, LastName, 'Employee' AS PersonType
 FROM EMPLOYEE;
 
--- ////////////////////
--- zenab mahmoud//////
--- //////////////////
+
 
 SELECT  Type_ID, Capacity
 FROM Room_Type
@@ -1885,9 +1876,7 @@ AND discountvalue IS NOT NULL;
 
 
 
--- ////////////////////////////
--- sama adel//////////////////
--- /////////////////////////////
+
 
 
 SELECT RESERVATION_ID, CheckInDate, CheckOutDate, Status
